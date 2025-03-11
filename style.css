@@ -1,0 +1,39 @@
+.item {
+    border-radius:10px;
+    border:1px solid #DDD;
+    margin:10px;
+    display: inline-grid;
+    cursor: default;
+}
+
+.list {
+    display: inline;
+    width: 50%;
+    height: 100px;
+}
+
+div:last-child {
+    padding:5px;
+}
+
+div:not(:last-child) {
+    padding:5px;
+    border-bottom:1px solid #DDD;
+}
+
+span.num {
+    float:right;
+}
+
+img {
+    width:20px;
+}
+
+span {
+    float:none;
+}
+
+.container {
+    display: inline-grid;
+    width: 100%;
+}
